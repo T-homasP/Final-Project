@@ -37,7 +37,7 @@ function addComment() {
     </div> `);
     $(newCommentSection).find('#userName').text(displayName);
     $(newCommentSection).find('.commenT').text(comment);
-    $('.commentSection').append(newCommentSection);
+    $('.commentSection').prepend(newCommentSection);
     $('#displayName').val('');
     $('#comment').val('');
     $(newCommentSection).find('#delete').click(function() {
