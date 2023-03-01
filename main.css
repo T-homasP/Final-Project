@@ -1,24 +1,26 @@
-
+.space{
+    height: 170px;
+    background-color: rgb(223, 223, 223);
+}
 body{
     background-color: rgb(235, 232, 229);
-    margin-left: 5vh;
-    margin-right: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 div.top{
     background-color: rgb(248, 247, 247);
     position: fixed;
-    left: 5vh;
-    right: 5vh;
+    left: 10%;
+    right: 10%;
     top: 0;
     padding: 0px 20px;
     height: 170px;
-    
+    /* display: none; */
 }
 .commentSection{
     background-color: rgb(223, 223, 223);
     height:100vh;
-    margin-top: 170px;
-    padding: 0px 20px;
+    margin-top: 0px;
 }
 h1{
     font-family: 'Abel', sans-serif;
@@ -26,4 +28,110 @@ h1{
 h3{
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 100;
+}
+
+.addComment{
+    /* display: flex; */
+    background-color: rgb(239, 239, 250);
+    border: 0px solid;
+    border-radius: 5px;
+    margin: 0px 20px 20px;
+    /* background-color: black; */
+
+
+}
+img{
+    height: 50px;
+    padding: 15px;
+
+}
+button{
+    color: rgb(1, 197, 197);
+    border: none;
+    background-color: transparent;
+    font-size: 95%;
+    
+}
+
+.right{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 15px;
+    /* background-color: blueviolet; */
+    height: fit-content;
+}
+.editDel{
+    padding-right: 20px;
+    /* background-color: aqua; */
+    height: fit-content;
+}
+
+p#userName{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: -0px;
+}
+div.bottomSub{
+    background-color: rgb(248, 247, 247);
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    bottom:0;
+    padding: 0px 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.commenT{
+    font-size:140%;
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    width:auto;
+    overflow-y: auto;
+    height: auto;
+
+}
+input{
+    height: fit-content;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgba(46, 46, 46, .1);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px 10px;
+    width: fit-content;
+}
+#submitButton{
+    font-size: larger;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#displayName{
+    width:fit-content;
+    margin-right: 5%;
+}
+#comment{
+    width: 100%;
+    padding-top:10px;
+}
+.fix{
+    display: flex;
+    width:100%;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    border: 0px solid;
+    border-radius: 5px;
+}
+.editComment{
+    padding-bottom: 10px;
+    margin-left: 30px;
+    
+    /* background-color: aqua; */
+}
+.eddit{
+    display: none;
+}
+#edittedComment{
+    width: 70%;
 }
